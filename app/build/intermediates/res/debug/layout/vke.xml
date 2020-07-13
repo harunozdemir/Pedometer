@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="insideOverlay">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:src="@drawable/icon" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView2"
+                android:layout_centerHorizontal="true"
+                android:text="Vücut Kitle Endeksi Hesaplama"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/yellow" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="15dp"
+                android:padding="15dp">
+
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/tableLayout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+
+                    <TableRow
+                        android:id="@+id/row1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip">
+
+                        <TextView
+                            android:id="@+id/tvBoy"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="Boy  "
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="@color/white" />
+
+                        <EditText
+                            android:id="@+id/etBoy"
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_column="27"
+                            android:background="@drawable/edittextstyle"
+                            android:hint=" cm"
+                            android:inputType="number"
+                            android:padding="10dp"
+                            android:textColor="@color/black"
+                            android:textColorHint="#bbbbbb" />
+
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/rowSpace"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip">
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/row2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip">
+
+                        <TextView
+                            android:id="@+id/tvKg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="Kilo  "
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textColor="@color/white" />
+
+                        <EditText
+                            android:id="@+id/etKg"
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_column="27"
+                            android:background="@drawable/edittextstyle"
+                            android:hint=" kg"
+                            android:inputType="number"
+                            android:padding="10dp"
+                            android:textColor="@color/black"
+                            android:textColorHint="#bbbbbb" />
+
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/laytbtns"
+                android:layout_width="450dp"
+                android:layout_height="51dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp">
+
+                <Button
+                    android:id="@+id/btnHesapla"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_button"
+                    android:text="Hesapla" />
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_button"
+                    android:text="İptal" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvVKE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/laytbtns"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="31dp"
+                android:padding="5dp"
+                android:text="Vücut Kitle Endeksiniz (BMI):"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvSonuc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvVKE"
+                android:padding="5dp"
+                android:textColor="@color/yellow"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/tvVKESonuc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvVKE"
+                android:layout_below="@+id/tvSonuc"
+                android:padding="5dp"
+                android:text="Sonuç:"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvAciklama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvVKESonuc"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout><!-- From: file:/home/harunozdemir/Masaüstü/Android%20studio%20project/pedometer1/app/src/main/res/layout/vke.xml -->

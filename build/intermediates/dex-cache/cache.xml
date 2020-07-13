@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/harunozdemir/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/harunozdemir/Masaüstü/Android studio project/pedometer1/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-ef2fec5b8f96f3a8a32a3d4bf8f8b958a60b244c.jar" />
+    </item>
+    <item
+        jar="/home/harunozdemir/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/harunozdemir/Masaüstü/Android studio project/pedometer1/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-79aa188ecaad1a73fc8b83b2d5471b85f911373d.jar" />
+    </item>
+    <item
+        jar="/home/harunozdemir/Masaüstü/Android studio project/pedometer1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/harunozdemir/Masaüstü/Android studio project/pedometer1/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-6a431cc958d9a0a77ff6d363f2e8da7af3b3a236.jar" />
+    </item>
+    <item
+        jar="/home/harunozdemir/Masaüstü/Android studio project/pedometer1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/harunozdemir/Masaüstü/Android studio project/pedometer1/app/build/intermediates/pre-dexed/debug/classes-4c7c5e742299e9eac280cb7408e7f7985d7ae330.jar" />
+    </item>
+
+</items>

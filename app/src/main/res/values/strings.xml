@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pedometer-Adım sayar</string>
+    <string name="title_activity_main">Pedometer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="curved_text_value">Adım sayısı</string>
+    <string name="home_screen_observations">Adım</string>
+    <string name="total_observations">0</string>
+    <string name="percent_value">80%</string>
+    <string name="home_screen_observed_compliance">OBSERVED\nCOMPLIANCE</string>
+    <string name="content_description">This is an image…</string>
+
+</resources>

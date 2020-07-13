@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <corners android:radius="45dp" />
+
+    <!-- below code for different radius for each corner. -->
+
+
+    <!-- <corners -->
+    <!-- android:bottomLeftRadius="7dp" -->
+    <!-- android:bottomRightRadius="10dp" -->
+    <!-- android:topLeftRadius="12dp" -->
+    <!-- android:topRightRadius="5dp" /> -->
+
+
+    <!-- Background color -->
+    <solid android:color="@color/light_gray" />
+
+</shape><!-- From: file:/home/harunozdemir/Masaüstü/Android%20studio%20project/pedometer1/app/src/main/res/drawable/round_button.xml -->

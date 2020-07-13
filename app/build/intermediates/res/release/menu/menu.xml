@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/information"
+        android:orderInCategory="100"
+        android:title="Uygulama hakkında" />
+
+    <item
+        android:id="@+id/kaloriTable"
+        android:orderInCategory="100"
+        android:title="Kalori Tablosu" />
+
+    <item
+        android:id="@+id/kaloriCetveli"
+        android:orderInCategory="100"
+        android:title="Kalori Cetveli" />
+
+    <item
+        android:id="@+id/vke"
+        android:orderInCategory="100"
+        android:title="VKE Hesapla" />
+</menu><!-- From: file:/home/harunozdemir/Masaüstü/Android%20studio%20project/pedometer1/app/src/main/res/menu/menu.xml -->

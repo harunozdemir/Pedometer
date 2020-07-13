@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:src="@drawable/icon" />
+
+    <com.adimsayar.pedometer.DoubleTapImageView
+        android:id="@+id/imgTable"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_below="@+id/imageView2"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tablo_kalori" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgTable"
+        android:layout_centerHorizontal="true"
+        android:text="Kalori Tablosu"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/yellow" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/imgTable"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp">
+
+        <Button
+            android:id="@+id/btnTamam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="Tamam" />
+
+
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/home/harunozdemir/Masaüstü/Android%20studio%20project/pedometer1/app/src/main/res/layout/kalori_table.xml -->

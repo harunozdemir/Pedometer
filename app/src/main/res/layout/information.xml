@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="insideOverlay">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:src="@drawable/icon" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageView2"
+                android:layout_marginTop="-18dp"
+                android:padding="10dp"
+                android:text="- Bu uygulama ile belirttiğiniz kalori miktarı için yürümeniz gereken adım sayısını/yürüdüğünüz adım sayısını takip edebilirsiniz."
+                android:textColor="#FFFFFF"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tv1"
+                android:padding="10dp"
+                android:text="- Uygulamada 'Yeni hedef' butonuna basarak hedef kalori(kcal) miktarını girebilirsiniz.Hedefe ulaştığınız zaman uygulama size bildirecektir"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tv2"
+                android:padding="10dp"
+                android:text="- Uygulamada 'Sıfırla' butonuna basarak toplam attığınız adım ve kalori miktarını veritabanından silmiş olursunuz."
+                android:textColor="#FFFFFF"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tv3"
+                android:padding="10dp"
+                android:text="- Uygulamayı ilk kurduğunuz andan itibaren cihaz otomatik olarak adım sayınızı ve kalori miktarını kayıt edecektir.Fakat uygulama kapalı iken hiçbir hesaplama yapılmaz."
+                android:textColor="#FFFFFF"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView"
+                android:padding="10dp"
+                android:text="- Bu yüzden ölçüm yapmak istediğiniz de uygulamayı açık tutunuz."
+                android:textColor="#FFFFFF"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:padding="10dp"
+                android:text="- Sağlıklı günler.."
+                android:textColor="#FFFFFF"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/textView8"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp">
+
+                <Button
+                    android:id="@+id/btnTamam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView8"
+                    android:layout_marginLeft="0.5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_button"
+                    android:text="Tamam" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/harunozdemir/Masaüstü/Android%20studio%20project/pedometer1/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="back">#27282a</color>
+    <color name="black">#ff000000</color>
+    <color name="cancel_blue">#125D9D</color>
+    <color name="clear">#00ffffff</color>
+    <color name="coral_blue">#1DAEFA</color>
+    <color name="coral_blue_pressed">#1A9CE1</color>
+    <color name="dark_blue">#125D9D</color>
+    <color name="dark_blue_pressed">#10538D</color>
+    <color name="green">#30B50B</color>
+    <color name="light_gray">#ABBAC2</color>
+    <color name="mid_circle_blue">#177DC2</color>
+    <color name="ppe_button_blue">#2E8BCF</color>
+    <color name="red">#FF0000</color>
+    <color name="select_moment_blue">#4EA2DB</color>
+    <color name="select_moment_blue_pressed">#2D91D4</color>
+    <color name="smartwatch_color">#4ea2db</color>
+    <color name="text_gray">#6B767D</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_black">#80000000</color>
+    <color name="transparent_color">#00000000</color>
+    <color name="transparent_white">#80FFFFFF</color>
+    <color name="turquoise_blue">#006766</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_pressed">#E5E5E5</color>
+    <color name="yellow">#fbf948</color>
+    <declare-styleable name="MaterialButton"><attr format="color" name="color"/><attr format="integer" name="transitionTime"/></declare-styleable>
+    <!-- From: file:/home/harunozdemir/Masaüstü/Android%20studio%20project/pedometer1/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="eight_sp">8sp</dimen>
+    <dimen name="eighteen_sp">18sp</dimen>
+    <dimen name="eighty_dp">80dp</dimen>
+    <dimen name="eighty_sp">80sp</dimen>
+    <dimen name="eleven_dp">11dp</dimen>
+    <dimen name="eleven_sp">11sp</dimen>
+    <dimen name="fifteen_dp">15dp</dimen>
+    <dimen name="fifteen_sp">15sp</dimen>
+    <dimen name="fifty_dp">50dp</dimen>
+    <dimen name="fifty_four_dp">54dp</dimen>
+    <dimen name="fifty_two_dp">52dp</dimen>
+    <dimen name="five_dp">5dp</dimen>
+    <dimen name="fourteen_sp">14sp</dimen>
+    <dimen name="fourty_dp">40dp</dimen>
+    <dimen name="fourty_eight_dp">48dp</dimen>
+    <dimen name="fourty_five_dp">45dp</dimen>
+    <dimen name="fourty_sp">40sp</dimen>
+    <dimen name="nineteen_dp">19dp</dimen>
+    <dimen name="one_dp">1dp</dimen>
+    <dimen name="one_hundred_dp">100dp</dimen>
+    <dimen name="one_hundred_fifty_five_dp">155dp</dimen>
+    <dimen name="one_hundred_fourty_five_dp">145dp</dimen>
+    <dimen name="one_hundred_twenty_sp">120sp</dimen>
+    <dimen name="seven_dp">7dp</dimen>
+    <dimen name="seventeen_dp">17dp</dimen>
+    <dimen name="seventeen_sp">17sp</dimen>
+    <dimen name="seventy_dp">70dp</dimen>
+    <dimen name="seventy_five_dp">75dp</dimen>
+    <dimen name="six_dp">6dp</dimen>
+    <dimen name="sixteen_sp">16sp</dimen>
+    <dimen name="sixty_five_dp">65dp</dimen>
+    <dimen name="ten_dp">10dp</dimen>
+    <dimen name="ten_sp">10sp</dimen>
+    <dimen name="thirteen_dp">13dp</dimen>
+    <dimen name="thirteen_sp">13sp</dimen>
+    <dimen name="thirty_dp">30dp</dimen>
+    <dimen name="thirty_six_dp">36dp</dimen>
+    <dimen name="thirty_sp">30sp</dimen>
+    <dimen name="thirty_two_dp">32dp</dimen>
+    <dimen name="thirty_two_sp">32sp</dimen>
+    <dimen name="three_dp">3dp</dimen>
+    <dimen name="twelve_dp">12dp</dimen>
+    <dimen name="twelve_sp">12sp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="twenty_eight_dp">28dp</dimen>
+    <dimen name="twenty_five_dp">25dp</dimen>
+    <dimen name="twenty_four_dp">24dp</dimen>
+    <dimen name="twenty_four_sp">24sp</dimen>
+    <dimen name="twenty_six_sp">26sp</dimen>
+    <dimen name="twenty_sp">20sp</dimen>
+    <dimen name="twenty_two_dp">22dp</dimen>
+    <dimen name="twenty_two_sp">22sp</dimen>
+    <dimen name="two_dp">2dp</dimen>
+    <dimen name="two_hundred_fifty_dp">250dp</dimen>
+    <!-- From: file:/home/harunozdemir/Masaüstü/Android%20studio%20project/pedometer1/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Pedometer-Adım sayar</string>
+    <string name="content_description">This is an image…</string>
+    <string name="curved_text_value">Adım sayısı</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home_screen_observations">Adım</string>
+    <string name="home_screen_observed_compliance">OBSERVED\nCOMPLIANCE</string>
+    <string name="percent_value">80%</string>
+    <string name="title_activity_main">Pedometer</string>
+    <string name="total_observations">0</string>
+    <!-- From: file:/home/harunozdemir/Masaüstü/Android%20studio%20project/pedometer1/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_left</item>
+    </style>
+    <style name="Dialog_No_Border">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@color/transparent_color</item>
+
+    </style>
+    <style name="commonButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+</resources>

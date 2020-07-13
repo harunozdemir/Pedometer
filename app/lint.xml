@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/com/counter/pedometer/CircularButtonDrawable.java" />
+        <ignore path="src/com/counter/pedometer/MainActivity.java" />
+        <ignore path="src/com/counter/pedometer/MaterialButton.java" />
+        <ignore path="src/com/counter/pedometer/MaterialButtonDrawable.java" />
+    </issue>
+</lint>
